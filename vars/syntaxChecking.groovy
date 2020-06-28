@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 // check bach syntax
-def bashCheck(){
+def call(){
 
     sh 'shellcheck --version'
     sh 'apk  --no-cache add grep'
