@@ -20,18 +20,3 @@ def call(){
 
 }
 
-// check yaml syntax
-def yamlCheck(){
-
-    sh 'yamllint --version'
-    sh 'yamllint \${WORKSPACE}'
-}
-
-
-// check markdown syntax
-def markdownCheck(){
-    sh 'apk --no-cache add git'
-    sh 'gem install mdl'
-    sh 'mdl --version'
-    sh 'mdl --style all --warnings --git-recurse \${WORKSPACE}'
-}
