@@ -3,6 +3,6 @@
 // check bach syntax
 def call(){
 
-    sh 'csslint  \${WORKSPACE}/'
+    sh 'csslint  \${WORKSPACE}/battleboat/css/styles.css'
 
 }

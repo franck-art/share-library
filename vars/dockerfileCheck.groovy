@@ -2,6 +2,6 @@
 
 // check dockerfile syntax
 def call(){
-    sh '/bin/hadolint  \${WORKSPACE}/'
+    sh '/bin/hadolint  \${WORKSPACE}/fake-backend/Dokerfile'
 
 }
