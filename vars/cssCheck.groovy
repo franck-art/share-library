@@ -3,6 +3,6 @@
 // check bach syntax
 def call(){
 
-    sh 'csslint  \${WORKSPACE}/battleboat/css/styles.css'
+    sh 'csslint  \${WORKSPACE}/source_code/static/css/dataTables.bootstrap.css'
 
 }
